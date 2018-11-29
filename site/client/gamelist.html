@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>GamePit</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+      <header>
+          <div class="container">
+              <div class="flex-container">
+                  <article>
+                      <h1>Game<span class="highlight">Pit</span></h1>
+                  </article>
+                  <nav>
+                    <ul>
+                        <li><a href="index.html">About</a> </li>
+                        <li class="current"><a href="gamelist.html">Games</a> </li>
+                    </ul>
+                  </nav>
+              </div>
+          </div>
+      </header>
+
+      <section id="search">
+        <div class="container">
+            <div class="flex-container">
+                <h1>Site search</h1>
+                <form>
+                    <input type="search" placeholder="Type here...">
+                    <button type="submit" class="button_1">Search stuff</button>
+                </form>
+            </div>
+        </div>
+      </section>
+      
+      <div id="list">
+        <div class="container">
+            <div class="game_link">
+                <a href="arkanoid.html">
+                    <div class="flex-container">
+                        <article id="art1">
+                            <h3>Arkanoid</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu justo quis risus vestibulum tincidunt. Etiam ut semper metus. Pellentesque ut massa dignissim, luctus lacus dictum, aliquet nulla. Vestibulum at nunc convallis urna mollis viverra.</p>
+                        </article>
+                        <aside><img id="img1" src="img/arkanoid.png" alt="Arkanoid"></aside>
+                    </div>
+                </a>
+            </div>
+            <div class="game_link">
+                <div class="flex-container">
+                    <a href="memorygame.html">
+                        <article>
+                            <h3>Memory Game</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu justo quis risus vestibulum tincidunt. Etiam ut semper metus. Pellentesque ut massa dignissim, luctus lacus dictum, aliquet nulla. Vestibulum at nunc convallis urna mollis viverra.</p>
+                        </article>
+                    </a>
+                        <a href="memorygame.html">
+                        <aside><img src="img/memoryGame.png" alt="Memory Game"></aside>
+                    </a>
+                </div>
+            </div>
+            <div class="game_link">
+                <a href="orcsgoblins.html">
+                    <div class="flex-container">
+                        <article>
+                            <h3>Orc &#38; Goblins</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu justo quis risus vestibulum tincidunt. Etiam ut semper metus. Pellentesque ut massa dignissim, luctus lacus dictum, aliquet nulla. Vestibulum at nunc convallis urna mollis viverra.</p>
+                        </article>
+                        <aside><img src="img/ork&goblins.png" alt="Orcs & Goblins"></aside>
+                    </div>
+                </a>
+            </div>
+        </div>
+      </div>
+      
+      <footer>
+        <ul class="social">
+            <li><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+        <p>GamePit exists <span id="life_site"></span> days, Copyright &copy; 2018</p>
+        <script src="js/lifesite.js"></script>
+      </footer>
+  </body>
+</html>
